@@ -1,0 +1,56 @@
+#greycol{
+    color: gray;
+}
+h3:first-child  {
+    color: rgb(240, 0, 208);
+}
+.yellow {
+    color: yellow;
+}
+
+.text-box div> p {
+    color: red;
+ }
+ /* :nth-child(7) {
+    color: green;
+ } */
+ 
+ p:nth-of-type(3) {
+    color: green;
+ }
+.mon-item:only-child {
+    background-color: black;
+    color: aquamarine;
+}
+
+
+.tus-item:nth-child(-n+4) {
+color: darkmagenta;
+
+}
+    
+    
+ 
+ 
+.tus-item:hover{
+    background-color: cadetblue;
+}
+.wed-item:nth-child(-n+2)  {
+    color: rgb(0, 255, 132);
+    
+}
+.thirs-item:nth-child(3)  {
+    color: pink;
+}
+
+
+.friday-subgect:first-child    {
+ color: cyan;
+}
+a{
+    color: cornflowerblue;
+}
+a:visited {
+    color:peru;
+    cursor:progress;
+}
